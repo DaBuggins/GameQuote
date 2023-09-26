@@ -1,8 +1,29 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  padding-inline: 5em;
 }
 
 .Loader {
   transition: 0.5s opacity;
+  
+}
+
+.Title {
+  font-size: 1.5em;
+  color: white;
+}
+
+.Quote {
+  border: 2px dashed black;
+  padding-inline: 5em;
+  padding-bottom: 2em;
+  padding-top: 2em;
+
+  
+  
+}
+
+.Character {
+  color: white;
 }

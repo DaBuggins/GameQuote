@@ -21,9 +21,12 @@ export default function GameQuote() {
       <p className="Loader" style={{ opacity: isLoading ? 1 : 0 }}>
         Loading...
       </p>
-      <h1>"{quote.quote}"</h1>
+      <h1>{quote.title} ({quote.release})</h1>
+
+
+      <h2>"{quote.quote}"</h2>      
      
-      <h2>- {quote.character}, {quote.title}</h2>
+      <i><h3>-  {quote.character} </h3></i>
     </div>
   );
 }

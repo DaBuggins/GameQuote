@@ -6,22 +6,23 @@
 
 .Loader {
   transition: 0.5s opacity;
-  
 }
 
 .Title {
   font-size: 1.5em;
   color: white;
+  text-shadow: 1px 1px 1px black;
 }
 
 .Quote {
+  font-size: 2em;
   border: 2px dashed black;
   padding-inline: 5em;
   padding-bottom: 2em;
   padding-top: 2em;
-
-  
-  
+  background-color: royalblue;
+  color: white;
+  text-shadow: 1px 1px 1px black;
 }
 
 .Character {
